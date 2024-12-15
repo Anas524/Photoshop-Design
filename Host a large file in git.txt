@@ -1,0 +1,29 @@
+to upload large file on github
+note: use cmd
+
+-> cd desktop
+-> git clone paste url from git
+   then add website files 
+-> cd your filename
+-> git lfs install
+-> git lfs track "*.mov"
+-> git add .
+-> git commit -m "LFS"
+-> git push origin main
+
+then upload edited file and add a new file on same repositories
+note: use vs code terminal
+
+-> open the same repo folder on vs code 
+-> type git status
+-> It looks like you have modified, deleted, and added files in your project.         Follow these steps to stage, commit, and push your changes to GitHub:
+-> git add -A
+-> git commit -m "give here a specific content about what changes are you made"
+-> git push origin main
+
+now made small changes on one file to push that into same repo
+note: use vs code terminal
+
+-> git add filename (ex: git add legal.html)
+-> git commit -m "give here a specific content about what changes are you made"
+-> git push origin main
