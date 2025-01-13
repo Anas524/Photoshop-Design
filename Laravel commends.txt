@@ -1,0 +1,30 @@
+To create a Laravel project:
+composer create-project laravel/laravel filename
+
+To run a Laravel server:
+php artisan serve
+
+To run a Laravel server at different port:
+php artisan serve --port=8080
+
+To create database table:
+php artisan make:migration create_tablenames_table
+NOTE: table name should be start with lowercase and plural (ex: students)
+
+php artisan migrate
+
+To create controller:
+php artisan make:controller controllername (ex:StudentController)
+
+To create model:
+php artisan make:model Filename
+NOTE: model name should be start with uppercase and singular (ex: Student)
+
+To create a session table:
+php artisan session:table
+
+methods
+-> create
+-> compact
+
+
